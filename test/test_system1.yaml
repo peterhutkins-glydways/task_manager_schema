@@ -24,12 +24,13 @@ agents:
       stack_size: 256
 
 signals:
-  - "signal1"
-  - "signal3"
-  - "signal4"
-  - "signal5"
-  - "signal_has_a_long_name"
-  - name: "signal6"
+  signal1: {}
+  signal3: {}
+  signal4: {}
+  signal5: {}
+  signal_has_a_long_name: {}
+  signal6:
     type: "boolean"
     initial_value: "false"
-  
+
+signals:signal5:type: "boolean"
