@@ -33,4 +33,6 @@ signals:
     type: "boolean"
     initial_value: "false"
 
+# This doesn't work.  It silently fails.
+# It creates a new signal called "signals:signal5:type" instead of pushing into the signals dictionary.
 signals:signal5:type: "boolean"
