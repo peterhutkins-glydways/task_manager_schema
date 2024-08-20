@@ -5,7 +5,7 @@
 // and import them into "agents". 
 package agents
 
-agents: [...#AgentDef]
+agents:  [AgentName=string]: #AgentDef & {name: AgentName}
 
 #AgentDef: {
     name: string

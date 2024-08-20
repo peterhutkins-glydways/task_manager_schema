@@ -1,5 +1,6 @@
 agents:
-  - name: agent0  # unique Agent name
+  agent0: 
+    name: agent0  # unique Agent name
     priority:  3
     resources:
       stack_size: 256
@@ -19,7 +20,7 @@ agents:
         deadline: 32 # Required if execution_window is "time_bounded", represents time in milliseconds
         callable_name: "sleepy_c"  # The function/procedure to be called upon an event. 
         callable_type: "Ada"
-  - name: agent1
+  agent1: 
     resources:
       stack_size: 256
 
