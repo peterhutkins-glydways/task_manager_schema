@@ -47,4 +47,4 @@ signals: {
 }
 
 // Can add definitions later, like this:
-signals: signal5 : type: "boolean"
+signals: signal5 : special_field: "true"
