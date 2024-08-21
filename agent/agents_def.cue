@@ -19,9 +19,10 @@ agents:  [AgentName=string]: #AgentDef & {name: AgentName}
 #PriorityDef: uint8 | *_defaultPriority
 _defaultPriority: 1
 
+_default_stack_size: 256
 // Definition of Agent resources
 #ResourcesDef: {
-    stack_size: uint32
+    stack_size: uint32 | *_default_stack_size
     memory_pool?: string
     interfaces: [...#InterfaceDef]
 }
