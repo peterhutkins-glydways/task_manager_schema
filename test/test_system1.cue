@@ -1,4 +1,3 @@
-package test_system1
 
 
 agents: {
