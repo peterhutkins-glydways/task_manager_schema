@@ -3,7 +3,7 @@
 // At this time, all schemas are under the "agents" package. 
 // TODO: break off sub-schemas into their own independnet packages
 // and import them into "agents". 
-package agents
+package agent
 
 agents:  [AgentName=string]: #AgentDef & {name: AgentName}
 

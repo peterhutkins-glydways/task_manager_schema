@@ -1,6 +1,6 @@
 // Definition of schema for events
 
-package agents
+package agent
 
 // Placeholder
 #EventDef : string

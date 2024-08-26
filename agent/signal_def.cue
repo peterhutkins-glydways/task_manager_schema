@@ -1,5 +1,5 @@
 // Definition of schema for signals
-package agents
+package agent
 
 import "list"
 

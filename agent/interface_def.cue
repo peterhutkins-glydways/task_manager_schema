@@ -1,6 +1,6 @@
 // Definition of schema for interfaces
 
-package agents
+package agent
 
 // Placeholder
 #InterfaceDef : {
