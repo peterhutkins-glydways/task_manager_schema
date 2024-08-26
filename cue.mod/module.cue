@@ -1,4 +1,2 @@
 module: "github.com/peterhutkins-glydways/task_manager_schema"
-language: {
-	version: "v0.9.0"
-}
+cue:    "0.5.0"
