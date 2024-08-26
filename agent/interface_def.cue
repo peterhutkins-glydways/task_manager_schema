@@ -3,8 +3,8 @@
 package agent
 
 // Placeholder
-#InterfaceDef : {
+#InterfaceDef: {
 	type: string
-	id: string
+	id:   string
 	...
 }
